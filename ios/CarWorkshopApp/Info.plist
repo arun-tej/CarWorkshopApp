@@ -1,0 +1,11 @@
+<dict>
+    ...
+    <!-- Bluetooth Permissions for iOS 13+ -->
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>This app requires Bluetooth access to connect to OBD-II devices.</string>
+
+    <!-- Location Permissions (required for some Bluetooth functionality) -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This app requires location access to find nearby Bluetooth devices.</string>
+    ...
+</dict>
